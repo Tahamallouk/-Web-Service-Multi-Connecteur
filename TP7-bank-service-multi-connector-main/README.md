@@ -221,51 +221,17 @@ BankServiceMultiConnectorApplication.java
 | ![](docs/2.png)   |
 | ![](docs/2.1.png) |
 
-### 🔹 SOAP — WSDL <br/>
-
-- URL : <br/>
-
-#### 👉🏻 http://localhost:8080/api/soap/BankService?wsdl <br/>
-
-| SOAP WSDL       |
-|-----------------|
-| ![](docs/5.png) |
 
 
-### 🔹 gRPC — Test via Postman gRPC
-
-- Host : localhost  <br/>
-- Port : 4444  <br/>
-- Proto : bank.proto  <br/>
-- Service : BankService <br/>
-```
-{
-"identityRef": "A100"
-}
-```
-
-| gRPC Test       |
-| --------------- |
-| ![](docs/4.png) |
-| ![](docs/6.png) |
-
-#### ⚠️ Le port gRPC n’est pas accessible via navigateur (comportement normal). <br/>
 
 ---
 
-## ⚠️ Remarques importantes <br/>
-
-- Le même service métier est exposé via 4 technologies différentes <br/>
-- gRPC utilise HTTP/2 + Protobuf <br/>
-- SOAP repose sur un contrat WSDL <br/>
-- GraphQL fonctionne via un endpoint unique <br/>
-- REST est documenté via Swagger / OpenAPI <br/>
 
 ---
 
 ## 👥 Auteurs
 
-Anas KRIR & Adam EL YOURI <br/>
+Mallouk Mohammed Taha <br/>
 Étudiants Ingénieurs — MIAGE <br/>
 TP réalisé dans le cadre du module ARCHITECTURE DES COMPOSANTS D'ENTREPRISES <br/>
 
@@ -279,7 +245,7 @@ Java · Spring Boot · REST · GraphQL · SOAP · gRPC · Protocol Buffers · Ma
 ✅ Projet sous licence MIT <br/>
 Libre d’utilisation, modification et distribution à des fins pédagogiques. <br/>
 
-© 2025 — Anas KRIR & Adam EL YOURI <br/>
+© 2025 — Mallouk Mohammed Taha <br/>
 
 ---
 
