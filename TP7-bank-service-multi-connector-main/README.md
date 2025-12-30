@@ -218,7 +218,7 @@ BankServiceMultiConnectorApplication.java
 
 | GraphQL Test      |
 | ----------------- |
-| ![](docs/2.png)   |
+
 | ![](docs/2.1.png) |
 
 
